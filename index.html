@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>  
+
+    <body class="text-center py-3" style="background-image: url(''); background-size: cover; font-family: cursive; text-align:center;color: #009961">
+  <center><h1  style="background-color:#009961; width: 700px; font-size: 50px;text-align:center;color: rgb(245, 255, 250)">Insurance Fraud Detection</h1></center>   
+       <form action="/predict" method="POST">
+         age of driver:<br>
+         <input type="text" name="age_of_driver" required><br>
+         gender:<br>
+         <input type="text" name="gender" ><br>
+         marital status:<br>
+         <input type="text" name="marital_status" required><br>
+         safty rating:<br>
+         <input type="text" name="safty_rating" required><br>
+         annual income:<br>
+         <input type="text" name="annual_income" ><br>
+         high education ind:<br>
+         <input type="text" name="high_education_ind"><br>
+         address change ind:<br>
+         <input type="text" name="address_change_ind"><br>
+         living status:<br>
+         <input type="text"  name="living_status"><br>
+         claim date:<br>
+         <input type="text" name="claim_date" required><br>
+         accident site:<br>
+         <input type="text" name="accident_site" required><br>
+         channel:<br>
+         <input type="text" name="channel" required><br>
+         policy report filed:<br>
+         <input type="text" name="policy_report_filed_ind" ><br>
+         claim est payout:<br>
+         <input type="text" name="claim_est_payout" ><br>
+         age of vehicle:<br>
+         <input type="text" name="age_of_vehicle" ><br>
+         vehicle category:<br>
+         <input type="text" name="vehicle_category" >
+         <br>
+         vehicle price:<br>
+         <input type="text" name="vehicle_price" >
+         <br>
+         vehicle color:<br>
+         <input type="text" name="vehicle_color" ><br>
+         vehicle weight:<br>
+         <input type="text" name="vehicle_weight">
+         <br>
+         
+
+        <br>
+         <button  class="btn btn-success">Predict</button>
+      
+       </form>
+       <script src="js/bootstrap.js"></script>
+       <br>
+</body>
